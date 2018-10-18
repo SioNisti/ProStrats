@@ -1,0 +1,10 @@
+C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\bin\Debug\ProStrats.exe.config
+C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\bin\Debug\ProStrats.exe
+C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\bin\Debug\ProStrats.pdb
+C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\obj\Debug\ProStrats.csprojResolveAssemblyReference.cache
+C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\obj\Debug\ProStrats.Form1.resources
+C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\obj\Debug\ProStrats.Properties.Resources.resources
+C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\obj\Debug\ProStrats.csproj.GenerateResource.Cache
+C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\obj\Debug\ProStrats.csproj.CoreCompileInputs.cache
+C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\obj\Debug\ProStrats.exe
+C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\obj\Debug\ProStrats.pdb
