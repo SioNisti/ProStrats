@@ -28,99 +28,122 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.components = new System.ComponentModel.Container();
+            this.attempts = new System.Windows.Forms.Label();
             this.success = new System.Windows.Forms.Label();
             this.failed = new System.Windows.Forms.Label();
             this.consistency = new System.Windows.Forms.Label();
+            this.inaRow = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.resetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // attempts
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "(up arrow)";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(13, 13);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Reset";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 80);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "(down arrow)";
+            this.attempts.AutoSize = true;
+            this.attempts.BackColor = System.Drawing.SystemColors.ControlText;
+            this.attempts.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.attempts.ForeColor = System.Drawing.SystemColors.Control;
+            this.attempts.Location = new System.Drawing.Point(12, 9);
+            this.attempts.Name = "attempts";
+            this.attempts.Size = new System.Drawing.Size(126, 24);
+            this.attempts.TabIndex = 2;
+            this.attempts.Text = "Attempts: 0";
             // 
             // success
             // 
             this.success.AutoSize = true;
-            this.success.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.success.Location = new System.Drawing.Point(62, 39);
+            this.success.BackColor = System.Drawing.SystemColors.ControlText;
+            this.success.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.success.ForeColor = System.Drawing.SystemColors.Control;
+            this.success.Location = new System.Drawing.Point(12, 39);
             this.success.Name = "success";
-            this.success.Size = new System.Drawing.Size(110, 25);
+            this.success.Size = new System.Drawing.Size(114, 24);
             this.success.TabIndex = 3;
             this.success.Text = "Success: 0";
             // 
             // failed
             // 
             this.failed.AutoSize = true;
-            this.failed.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.failed.Location = new System.Drawing.Point(75, 71);
+            this.failed.BackColor = System.Drawing.SystemColors.ControlText;
+            this.failed.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.failed.ForeColor = System.Drawing.SystemColors.Control;
+            this.failed.Location = new System.Drawing.Point(12, 71);
             this.failed.Name = "failed";
-            this.failed.Size = new System.Drawing.Size(87, 25);
+            this.failed.Size = new System.Drawing.Size(93, 24);
             this.failed.TabIndex = 4;
             this.failed.Text = "Failed: 0";
             // 
             // consistency
             // 
             this.consistency.AutoSize = true;
-            this.consistency.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.consistency.Location = new System.Drawing.Point(7, 96);
+            this.consistency.BackColor = System.Drawing.SystemColors.ControlText;
+            this.consistency.Font = new System.Drawing.Font("Century Gothic", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.consistency.ForeColor = System.Drawing.SystemColors.Control;
+            this.consistency.Location = new System.Drawing.Point(4, 97);
             this.consistency.Name = "consistency";
-            this.consistency.Size = new System.Drawing.Size(318, 46);
+            this.consistency.Size = new System.Drawing.Size(332, 49);
             this.consistency.TabIndex = 5;
             this.consistency.Text = "Consistency: 0%";
+            // 
+            // inaRow
+            // 
+            this.inaRow.AutoSize = true;
+            this.inaRow.BackColor = System.Drawing.SystemColors.ControlText;
+            this.inaRow.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inaRow.ForeColor = System.Drawing.SystemColors.Control;
+            this.inaRow.Location = new System.Drawing.Point(211, 9);
+            this.inaRow.Name = "inaRow";
+            this.inaRow.Size = new System.Drawing.Size(115, 24);
+            this.inaRow.TabIndex = 6;
+            this.inaRow.Text = "In a row: 0";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.resetToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(103, 26);
+            // 
+            // resetToolStripMenuItem
+            // 
+            this.resetToolStripMenuItem.Name = "resetToolStripMenuItem";
+            this.resetToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
+            this.resetToolStripMenuItem.Text = "Reset";
+            this.resetToolStripMenuItem.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(361, 152);
+            this.BackColor = System.Drawing.SystemColors.ControlText;
+            this.ClientSize = new System.Drawing.Size(385, 152);
+            this.ContextMenuStrip = this.contextMenuStrip1;
+            this.Controls.Add(this.inaRow);
             this.Controls.Add(this.consistency);
             this.Controls.Add(this.failed);
             this.Controls.Add(this.success);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.attempts);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "ProStrats";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label attempts;
         private System.Windows.Forms.Label success;
         private System.Windows.Forms.Label failed;
         private System.Windows.Forms.Label consistency;
+        private System.Windows.Forms.Label inaRow;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem resetToolStripMenuItem;
     }
 }
 

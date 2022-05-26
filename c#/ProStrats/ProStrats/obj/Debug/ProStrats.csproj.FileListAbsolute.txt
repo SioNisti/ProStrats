@@ -8,3 +8,13 @@ C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\obj\Debug\ProStrats.csproj.Gene
 C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\obj\Debug\ProStrats.csproj.CoreCompileInputs.cache
 C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\obj\Debug\ProStrats.exe
 C:\Users\JeSpEr\source\repos\ProStrats\ProStrats\obj\Debug\ProStrats.pdb
+C:\Users\Silen Tonion\Source\Repos\SioNisti\ProStrats\c#\ProStrats\ProStrats\bin\Debug\ProStrats.exe.config
+C:\Users\Silen Tonion\Source\Repos\SioNisti\ProStrats\c#\ProStrats\ProStrats\bin\Debug\ProStrats.exe
+C:\Users\Silen Tonion\Source\Repos\SioNisti\ProStrats\c#\ProStrats\ProStrats\bin\Debug\ProStrats.pdb
+C:\Users\Silen Tonion\Source\Repos\SioNisti\ProStrats\c#\ProStrats\ProStrats\obj\Debug\ProStrats.csproj.AssemblyReference.cache
+C:\Users\Silen Tonion\Source\Repos\SioNisti\ProStrats\c#\ProStrats\ProStrats\obj\Debug\ProStrats.Form1.resources
+C:\Users\Silen Tonion\Source\Repos\SioNisti\ProStrats\c#\ProStrats\ProStrats\obj\Debug\ProStrats.Properties.Resources.resources
+C:\Users\Silen Tonion\Source\Repos\SioNisti\ProStrats\c#\ProStrats\ProStrats\obj\Debug\ProStrats.csproj.GenerateResource.cache
+C:\Users\Silen Tonion\Source\Repos\SioNisti\ProStrats\c#\ProStrats\ProStrats\obj\Debug\ProStrats.csproj.CoreCompileInputs.cache
+C:\Users\Silen Tonion\Source\Repos\SioNisti\ProStrats\c#\ProStrats\ProStrats\obj\Debug\ProStrats.exe
+C:\Users\Silen Tonion\Source\Repos\SioNisti\ProStrats\c#\ProStrats\ProStrats\obj\Debug\ProStrats.pdb
